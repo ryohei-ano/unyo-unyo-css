@@ -1,0 +1,104 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #212121;
+
+}
+.box1{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    border-radius: 10rem;
+    position: relative;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: gene1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.box2{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    position: relative;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: gene2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+/*.box-radius1{
+    border-radius: 10rem;
+    animation-name: geneRadius1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.box-radius2{
+    border-radius: 10rem;
+    animation-name: geneRadius2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}*/
+@keyframes gene1{
+    0%{border-radius: 50%; background-color: skyblue; left:50%; top: 50%;}
+    10%{border-radius: 50% 50% 50% 45%; background-color: greenyellow; left:52%; top: 48%;}
+    20%{border-radius: 50% 50% 50% 35%; background-color: greenyellow; left:53%; top: 46%;}
+    30%{border-radius: 50% 50% 50% 25%; background-color: greenyellow; left:54%; top: 44%;}
+    40%{border-radius: 50% 50% 50% 15%; background-color: coral; left:55%; top: 42%;}
+    50%{border-radius: 50% 50% 50% 3%; background-color: violet; left:56%; to6: 39%;}
+    60%{border-radius: 50% 50% 50% 15%; background-color: greenyellow; left:56%; top: 39%;}
+    70%{border-radius: 50% 50% 50% 25%; background-color: greenyellow; left:56%; top: 39%;}
+    80%{border-radius: 50% 50% 50% 35%; background-color: green50llow; left:56%; top: 39%;}
+    90%{border-radius: 50% 50% 50% 45%; background-color: green50llow; left:56%; top: 39%;}
+    100%{border-radius: 50%; background-color: skyblue; left:56%; top: 39%;}
+}
+
+@keyframes gene2{
+    0%{border-radius: 50%; background-color: skyblue; left:36%; top: 50%;}
+    10%{border-radius: 50% 45% 50% 50%; background-color: greenyellow; left:34%; top: 52%;}
+    20%{border-radius: 50% 35% 50% 50%; background-color: greenyellow; left:33%; top: 54%;}
+    30%{border-radius: 50% 25% 50% 50%; background-color: greenyellow; left:32%; top: 56%; }
+    40%{border-radius: 50% 15% 50% 50%; background-color: coral; left:31%; top: 58%; }
+    50%{border-radius: 50% 3% 50% 50%; background-color: violet; left:30%; top: 62%; }
+    60%{border-radius: 50% 15% 50% 50%; background-color: greenyellow; left:30%; top: 62%;}
+    70%{border-radius: 50% 25% 50% 50%; background-color: greenyellow; left:30%; top: 62%;}
+    80%{border-radius: 50% 35% 50% 50%; background-color: greenyellow; left:30%; top: 62%;}
+    90%{border-radius: 50% 45% 50% 50%; background-color: greenyellow; left:30%; top: 62%;}
+    100%{border-radius: 50%; background-color: skyblue; left:30%; top: 62%;}
+}
+/*
+@keyframes gene1{
+    0%{border-radius: 50%;}
+    10%{border-radius: 50% 50% 50% 45%;}
+    20%{border-radius: 50% 50% 50% 35%;}
+    30%{border-radius: 50% 50% 50% 25%;}
+    40%{border-radius: 50% 50% 50% 15%;}
+    50%{border-radius: 50% 50% 50% 5%;}
+    60%{border-radius: 50% 50% 50% 15%;}
+    70%{border-radius: 50% 50% 50% 25%;}
+    80%{border-radius: 50% 50% 50% 35%;}
+    90%{border-radius: 50% 50% 50% 45%;}
+    100%{border-radius: 50%;}
+}
+@keyframes gene2{
+    0%{border-radius: 50%;}
+    10%{border-radius: 50% 45% 50% 50%;}
+    20%{border-radius: 50% 35% 50% 50%;}
+    30%{border-radius: 50% 25% 50% 50%;}
+    40%{border-radius: 50% 15% 50% 50%;}
+    50%{border-radius: 50% 5% 50% 50%;}
+    60%{border-radius: 50% 15% 50% 50%;}
+    70%{border-radius: 50% 25% 50% 50%;}
+    80%{border-radius: 50% 35% 50% 50%;}
+    90%{border-radius: 50% 45% 50% 50%;}
+    100%{border-radius: 50%;}
+}
+*/
