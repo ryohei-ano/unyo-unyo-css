@@ -1,0 +1,13 @@
+
+body
+	{
+		background-color:#cccccc;
+	}
+span.src{
+  display: inline-block;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+}
+	
+
