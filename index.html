@@ -8,7 +8,48 @@
 </head>
 
 <body>
-    <div class="box box1 box-radius1"></div>
-    <div class="box box2 box-radius2"></div>
+    <div id="container">
+        <svg class="box" viewbox="0 0 456 456" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                .cls-1{fill:url(#名称未設定グラデーション_23);}
+                </style>
+                <lineargradient gradientunits="userSpaceOnUse" id="名称未設定グラデーション_23" x2="456" y1="228" y2="228">
+                    <stop offset="0" stop-color="#ebaaff"></stop>
+                    <stop offset="0.22" stop-color="#e4b1ff"></stop>
+                    <stop offset="0.55" stop-color="#cfc4ff"></stop>
+                    <stop offset="0.95" stop-color="#aee4ff"></stop>
+                    <stop offset="1" stop-color="#aae8ff"></stop>
+                </lineargradient>
+            </defs>
+            <circle class="cls-1" cx="228" cy="228" r="228"></circle>
+        </svg>
+
+        <svg class="box" viewbox="0 0 456 456" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <style>
+                .cls-1{fill:url(#名称未設定グラデーション_23);}
+                </style>
+                <lineargradient gradientunits="userSpaceOnUse" id="名称未設定グラデーション_23" x2="456" y1="228" y2="228">
+                    <stop offset="0" stop-color="#ebaaff"></stop>
+                    <stop offset="0.22" stop-color="#e4b1ff"></stop>
+                    <stop offset="0.55" stop-color="#cfc4ff"></stop>
+                    <stop offset="0.95" stop-color="#aee4ff"></stop>
+                    <stop offset="1" stop-color="#aae8ff"></stop>
+                </lineargradient>
+            </defs>
+            <circle class="cls-1" cx="228" cy="228" r="228"></circle>
+        </svg>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
 </body>
 </html>
