@@ -14,11 +14,13 @@
     border-radius: 100%;
     animation-name: gene1;
     animation-duration: 5s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 .box:nth-child(2) {
     animation-name: gene2;
     animation-duration: 5s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 
 }
